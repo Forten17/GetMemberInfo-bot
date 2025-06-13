@@ -56,7 +56,7 @@ async def on_ready():
     )
 
 #コマンド実行者の権限チェック
-@commands.has_role("Moderator")
+@commands.has_role("Moderator") #"Moderator"の部分は実際のロール名に置き換え
 
 #情報の取得とCSV変換
 async def export_members(ctx):
